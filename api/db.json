@@ -1,9 +1,19 @@
 {
-  "categorias":[
-      {
-        "id": "1",
-      "nome": "Restaurantes",
-      "descricao":"Lugares para Alimentação"
-      }
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "id": "13b7",
+      "nome": "dfs",
+      "descricao": "dsd"
+    },
+    {
+      "id": "889d",
+      "nome": "casdcs",
+      "descricao": "cdsc"
+    }
   ]
 }

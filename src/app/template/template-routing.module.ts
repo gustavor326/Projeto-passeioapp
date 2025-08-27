@@ -4,19 +4,29 @@ import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
   {
-    path:"",
-    component:LayoutComponent,
+    path: '',
+    component: LayoutComponent,
     children: [
       {
-        path: "categorias",
-        loadChildren: ()=> import("../categorias/categorias.module").then(m=> m.CategoriasModule)
-      }
-    ]
-  }
+        path: 'categorias',
+        loadChildren: () =>
+          import('../categorias/categorias.module').then(
+            (m) => m.CategoriasModule
+          ),
+        pathMatch: 'full',
+      },
+      {
+        path: 'lugares',
+        loadChildren: () =>
+          import('../lugares/lugares.module').then((m) => m.LugaresModule),
+        pathMatch: 'full',
+      },
+    ],
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class TemplateRoutingModule { }
+export class TemplateRoutingModule {}

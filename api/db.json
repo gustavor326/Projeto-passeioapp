@@ -14,6 +14,50 @@
       "id": "889d",
       "nome": "casdcs",
       "descricao": "cdsc"
+    },
+    {
+      "id": "c92a",
+      "nome": "Parques",
+      "descricao": "Aproveite sabados e domingos no nosso parque"
+    },
+    {
+      "id": "7e22",
+      "nome": "mercadinho",
+      "descricao": "um otimo local para voce comprar o que precisa"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "7519",
+      "nome": "Shopping do ze",
+      "categoria": "2",
+      "localizacao": "Sergipe",
+      "urlFoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweZoBNelC6W6G1u-8vptvi8TFWQScQMBRnQ&s",
+      "avaliacao": "5"
+    },
+    {
+      "id": "a135",
+      "nome": "Shopping do ze",
+      "categoria": "2",
+      "localizacao": "Sergipe",
+      "urlFoto": "https://www.bloomberglinea.com/resizer/v2/ZMWKYJD5UVFFTIUJ64GOJIESBU.jpg?auth=e6c8d68dae99a0e03844c9c8be6ac6418870f6413fbc36acfaf4db512ecc42cd&width=800&height=533&quality=80&smart=true",
+      "avaliacao": "5"
+    },
+    {
+      "id": "b864",
+      "nome": "Parque Ibirapuera",
+      "categoria": "c92a",
+      "localizacao": "Sao Paulo",
+      "urlFoto": "https://admin.mac.com.br/wp-content/uploads/2024/11/o-que-fazer-no-ibirapuera-guia-completo-das-melhores-atracoes-thumbnail.webp",
+      "avaliacao": "3"
+    },
+    {
+      "id": "f946",
+      "nome": "Gbarbosa",
+      "categoria": "7e22",
+      "localizacao": "Sergipe",
+      "urlFoto": "https://infonet.com.br/wp-content/uploads/2025/05/eletroshow_gbarbosa_fotodivulgacao-e1748376741108.jpg",
+      "avaliacao": "3"
     }
   ]
 }
